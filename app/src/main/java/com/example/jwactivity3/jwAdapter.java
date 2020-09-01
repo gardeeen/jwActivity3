@@ -8,13 +8,13 @@ import android.widget.ArrayAdapter;
 
 public class jwAdapter  extends ArrayAdapter<String> {
     Context context;
-    int[] stuNo;
+    String[] stuNo;
     String[] stuName;
     int[] btnO;
     int[] btnA;
     int[] btnX;
 
-    public jwAdapter(Context context, int[] stuNo, String[] stuName, int[] butO, int[] butA, int[] butX){
+    public jwAdapter(Context context, String[] stuNo, String[] stuName, int[] btnO, int[] btnA, int[] btnX){
         super(context,R.layout.jwlist,R.id.txt_name,stuName);
         this.context=context;
         this.stuNo=stuNo;

@@ -16,7 +16,7 @@ import android.widget.ListView;
 public class MainActivity extends AppCompatActivity {
 
     ListView studenttable3;
-    int[] stuNo ={1,2,3};
+    String[] stuNo ={"1","2","3"};
     String[] stuName = {"김슈니","이슈니","박슈니"};
     int[] butO ={R.drawable.o,R.drawable.o,R.drawable.o};
     int[] butA ={R.drawable.a,R.drawable.a,R.drawable.a};
